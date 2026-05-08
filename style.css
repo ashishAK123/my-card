@@ -1,0 +1,57 @@
+.box {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 500px;
+  height: auto;
+  border: 2px solid rgb(231, 225, 225);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 3px 3px 10px rgb(50, 51, 54);
+  background-color: rgb(201, 201, 178);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.img {
+  width: 120px;
+  height: 120px;
+  border: 2px solid black;
+  background-image: url("./ak.jpeg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: bold;
+  color: red;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+  margin-top: 10px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: red;
+}
